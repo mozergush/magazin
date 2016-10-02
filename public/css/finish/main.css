@@ -1,0 +1,558 @@
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+
+}
+.buttons{
+	background: transparent;
+	border:none;
+}
+
+.border{
+	border: 3px solid;
+	border-color: #000215;
+}
+
+.border-left{
+	border-left: 3px solid;
+	border-color: #000215;
+}
+
+.header {
+	background-color: #000215;
+}
+
+.logo {
+	text-align:center;
+	margin: 15px 0  15px;
+	padding: 0;
+	color:#FFFFFF;
+	font-size:30px;
+	font-family: 'Asap', bold;
+}
+
+.logo-color {
+	color:#81c0e4;
+}
+
+.menu-item {
+	margin: 0;
+	padding: 15px 0  15px;
+	text-align:center;
+	color: #ffffff;
+	font-size:30px;
+	font-family: 'YanoneKaffeesatzRegular';
+	display:block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.menu-item:hover{
+	background-color: #01102d;
+}
+
+.menu-item.active{
+	background-color: #011d44;
+}
+
+
+.auth {
+	margin-right:15px;
+	float:right;
+	padding: 14px 0  16px;
+	color: #81c0e4;
+	font-size: 30px;
+	font-family: 'YanoneKaffeesatzRegular';
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.auth img{
+	margin-left: 5px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.auth:hover{
+	color: #fff;
+}
+
+.menu-button{
+	position: absolute;;
+	padding: 16px 20px  14px 0;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	z-index:10;
+}
+
+.footer{
+	background-color: #000215;
+}
+
+.footer-line{
+	height:9px;
+	background-color: #81c0e4;
+}
+
+.footer-content{
+	font-size: 25px;
+	font-family: 'YanoneKaffeesatzRegular';
+	text-align:center;
+	color: #ffffff;
+	padding:22px;
+	line-height: 1.85;
+}
+
+.footer-social{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.soc-button{
+	margin-left: 7px;
+	margin-right: 7px;
+	display: inline-block;
+}
+
+/* C O N T E N T */
+
+.find-form{
+	margin:25px 0 0 0;
+	padding:0;
+	background-color: #000215;
+}
+
+.find-form input{
+	margin:0;
+	width: 80%;
+	padding:0 0 0 10px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	height: 40px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+	text-align: left;
+	font-size:25px;
+	color: #000215;
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+.find-form button{
+	width:19%;
+	margin:0;
+	padding:0;
+	border:none;
+	background-color: transparent;
+	text-align: center;
+	font-size:25px;
+	color: #81c0e4;
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+.find-form button:hover{
+	color:#fff;
+}
+
+.content-slider-container{
+	padding: 0 105px 0;
+	position: relative;
+	margin:160px 15px 0 15px;
+}
+
+.slide-item{
+	margin: 20px 10px 20px;
+
+}
+
+.next_button, .prev_button {
+	color: #fff;
+	font-size: 46px;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	background-color: rgba(173, 216, 230, .5);
+	height: 100%;
+	width: 10%;
+	text-align: center;
+	vertical-align: center;
+}
+
+.next_button:hover, .prev_button:hover {
+	background-color: rgba(173, 216, 230, .7);
+}
+
+.next_button img, .prev_button img{
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+}
+
+.next_button {
+	right:0;
+}
+
+.prev_button{
+	left: 0;
+}
+
+/* N E E D  F I X */
+
+.content-allitems-tovari-tovar{
+	padding: 0;
+}
+
+.content-allitems-tovari-tovar-image{
+	max-width:100%;
+	height: auto;
+}
+
+.content-allitems-tovari-tovar-side{
+	background-color: #000215;
+}
+
+.content-allitems-tovari-tovar-opisaniye{
+	font-family: 'YanoneKaffeesatzRegular';
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align:center;
+}
+
+.content-allitems-tovari-tovar-cena{
+	font-family: 'YanoneKaffeesatzBold';
+	color: #FFFFFF;
+	font-size: 23px;
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	padding: 4px 0 2px 0;
+}
+
+.tovar-buy{
+	margin-top: 6px;
+	width: 50%;
+	float:right;
+	display: inline-block;
+	font-family: 'YanoneKaffeesatzBold';
+	font-size: 23px;
+	text-align: center;
+	color: #011d44;
+	background-color: #81c0e4;
+	border: none;
+}
+
+.tovar-buy:hover{
+	background-color: #81e3d9;
+}
+/* N E E D  F I X */
+.content-razdelitel{
+	margin:75px 0 18px 0;
+	text-align: center;
+}
+
+.content-razdelitel hr{
+	border: none;
+	background-color: #000215;
+	height: 3px;
+	margin: 18px 0 0 0;
+}
+
+.content-razdelitel-block{
+	top:0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+
+	width: 30%;
+	height: 39px;
+	color: #FFFFFF;
+	background-color: #000215;
+	text-align: center;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+}
+
+.content-news{
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+.content-news-item{
+	padding:0;
+	margin-bottom: 25px;
+}
+
+.content-news-item-side{
+	margin-top: 18px;
+}
+
+.content-news-item-side-text {
+	font-size: 19px;
+	text-align: justify;
+	padding-bottom: 13px;
+}
+
+.content-news-item-side-text-nazv{
+	font-size: 25px;
+	margin: 5px 0 10px 0;
+}
+
+.content-news-item-side-picture{
+	border-right: 3px solid #000215;
+	text-align: center;
+
+}
+
+.content-news-item-block{
+	top:0;
+	right: 0;
+	margin: auto;
+	position: absolute;
+
+	width: 20%;
+	height: 39px;
+	color: #FFFFFF;
+	background-color: #000215;
+	text-align: center;
+	font-size: 25px;
+	z-index:10;
+}
+
+.content-zakazi{
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+}
+
+.content-zakazi-all{
+	padding:0;
+	margin: 0 0 0 0;
+}
+
+.content-zakazi-nazvanie{
+	text-align: center;
+	padding:0;
+	margin: 0 0 0 0;
+}
+
+.content-zakazi-item-all{
+	padding:0;
+	margin: 25px 0 0 0;
+}
+
+.content-zakazi-item-image, .content-zakazi-item-title, .content-zakazi-item-amount, .content-zakazi-item-price, .content-zakazi-item-cancel {
+	text-align: center;
+	padding:0;
+	margin: 0 0 0 0;
+}
+
+.content-zakazi-item-image img{
+	width:100%;
+	height:auto;
+}
+
+.content-zakazi-item-title{
+	padding-top:27px;
+}
+
+.content-zakazi-item-amount{
+	padding-top:43px;
+}
+
+.content-zakazi-item-amount input{
+	text-align: center;
+	border: none;
+}
+
+.content-zakazi-item-amount-minus{
+	padding-top:40px;
+	position: absolute;
+	top:0;
+	left:0;
+	width:30%;
+	background-color: #011d44;
+	height:100%;
+}
+
+.content-zakazi-item-amount-plus{
+	padding-top:40px;
+	position: absolute;
+	top:0;
+	right:0;
+	width:30%;
+	height:100%;
+	background-color: #011d44;
+}
+
+.content-zakazi-item-price{
+	padding-top:43px;
+}
+
+.content-zakazi-item-cancel{
+	padding-top:40px;
+	background-color: #011d44;
+}
+
+.content-zakazi-item-cancel:hover,.content-zakazi-item-amount-minus:hover, .content-zakazi-item-amount-plus:hover{
+	background-color: #01102d;
+}
+
+.all-cost{
+	text-align: right;
+	margin: 25px 0 0 0;
+}
+
+.content-label{
+	text-align: right;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+	color: #000215;
+}
+
+.content-label-left{
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+	color: #000215;
+}
+
+.content-input{
+	margin-top:25px;
+}
+
+.content-input input{
+	margin:0;
+	width: 80%;
+	padding:0 0 1px 10px;
+	outline: none;
+	-webkit-appearance: none;
+	height: 40px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+	text-align: left;
+	font-size:25px;
+	color: #000215;
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+.content-button-all-anal{
+	margin: 25px 0 90px 0;
+}
+
+.content-button-a-fix{
+	padding:0;
+}
+
+.content-button-a{
+	height:40px;
+	width:100%;
+	text-align: center;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+	background-color: #000215;
+	color: #81c0e4;
+}
+
+.content-button, .content-button a{
+	height:40px;
+	width:50%;
+	text-align: center;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+	background-color: #000215;
+	color: #81c0e4;
+}
+
+.content-button:hover, .content-button a:hover, .content-button-hover a:hover{
+	background-color: #01102d;
+	color:#fff;
+}
+
+.content-button-right{
+	text-align: left;
+}
+
+.content-button-left{
+	text-align: right;
+}
+
+.content-button-all{
+	margin: 25px 0 140px 0;
+}
+
+.content-button-all-fix{
+	margin: 25px 0 75px 0;
+}
+
+.content-button-center{
+	text-align: center;
+}
+
+.content-button-solo{
+	width: 40%;
+}
+
+.content-razdelitel-fix{
+	margin:25px 0 0 0;
+}
+
+.content-tovarov-net{
+	text-align: center;
+	font-size:25px;
+	color: #000215;
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+.content-tovarov-net-img{
+	margin: 75px 0 25px 0;
+}
+
+.content-button-gotoshop{
+	margin: 25px 15px 75px 15px;
+}
+
+
+.finish-zakaz-na-rassmotrenii{
+	margin: 25px 0 0 0;
+	text-align: center;
+	font-size:25px;
+	color: #000215;
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+/* C O N T E N T */

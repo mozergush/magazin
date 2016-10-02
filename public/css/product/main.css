@@ -1,0 +1,308 @@
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+
+}
+.buttons{
+	background: transparent;
+	border:none;
+}
+
+.border{
+	border: 3px solid;
+	border-color: #000215;
+}
+
+
+.header {
+	background-color: #000215;
+}
+
+.logo {
+	text-align:center;
+	margin: 15px 0  15px;
+	padding: 0;
+	color:#FFFFFF;
+	font-size:30px;
+	font-family: 'Asap', bold;
+}
+
+.logo-color {
+	color:#81c0e4;
+}
+
+.menu-item {
+	margin: 0;
+	padding: 15px 0  15px;
+	text-align:center;
+	color: #ffffff;
+	font-size:30px;
+	font-family: 'YanoneKaffeesatzRegular';
+	display:block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.menu-item:hover{
+	background-color: #01102d;
+}
+
+.menu-item.active{
+	background-color: #011d44;
+}
+
+
+.auth {
+	margin-right:15px;
+	float:right;
+	padding: 14px 0  16px;
+	color: #81c0e4;
+	font-size: 30px;
+	font-family: 'YanoneKaffeesatzRegular';
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.auth img{
+	margin-left: 5px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.auth:hover{
+	color: #fff;
+}
+
+.menu-button{
+	position: absolute;
+	padding: 16px 20px  14px 0;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	z-index:10;
+}
+
+.footer{
+	background-color: #000215;
+}
+
+.footer-line{
+	height:9px;
+	background-color: #81c0e4;
+}
+
+.footer-content{
+	font-size: 25px;
+	font-family: 'YanoneKaffeesatzRegular';
+	text-align:center;
+	color: #ffffff;
+	padding:22px;
+	line-height: 1.85;
+}
+
+.footer-social{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.soc-button{
+	margin-left: 7px;
+	margin-right: 7px;
+	display: inline-block;
+}
+
+/* C O N T E N T */
+
+.find-form{
+	margin:25px 0 0 0;
+	padding:0;
+	background-color: #000215;
+}
+
+.find-form input{
+	margin:0;
+	width: 80%;
+	padding:0 0 0 10px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	height: 40px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+	text-align: left;
+	font-size:25px;
+	color: #000215;
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+.find-form button{
+	width:19%;
+	margin:0;
+	padding:0;
+	border:none;
+	background-color: transparent;
+	text-align: center;
+	font-size:25px;
+	color: #81c0e4;
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+.find-form button:hover{
+	color:#fff;
+}
+
+.content-razdelitel{
+	margin:25px 0 43px 0;
+	text-align: center;
+}
+
+.content-razdelitel-fix{
+	margin-top: 0;
+}
+
+.content-razdelitel hr{
+	border: none;
+	background-color: #000215;
+	height: 3px;
+	margin: 18px 0 0 0;
+}
+
+.content-razdelitel-block{
+	top:0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+
+	width: 30%;
+	height: 39px;
+	color: #FFFFFF;
+	background-color: #000215;
+	text-align: center;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+}
+
+
+.content-description{
+	text-align: justify;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+}
+
+.content-characteristic{
+	text-align: left;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+	margin-bottom: 45px;
+}
+
+.content-sliderandparams{
+margin-top:25px;
+}
+
+.content-slider-container{
+	padding:0;
+}
+
+.owl-item{
+	text-align: center;
+	width: 100%;
+}
+
+.content-params{
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+	padding-right: 0;
+}
+
+.content-params-name{
+	margin: 0 0 0 15px;
+	text-align:justify;
+}
+
+.content-params-fix{
+	margin-top: 60px;
+}
+
+.content-params-kol{
+	margin-top: 8px;
+	padding-right: 0;
+}
+
+.content-params-kol input{
+	width: 40%;
+	border: none;
+	outline: none;
+	height: auto;
+	background-color: #FFFFFF;
+	text-align: center;
+	color: #000215;
+}
+
+.minus, .plus{
+	background-color: #011d44;
+	height: 40px;
+}
+
+.minus img, .plus img{
+	text-align: center;
+}
+
+.content-params-cena{
+	text-align: center;
+	font-size:35px;
+}
+
+.content-params-submit{
+	margin-top:200px;
+	text-align: center;
+}
+
+.content-params-submit button{
+	font-size:30px;
+	width: 60%;
+	background-color: #011d44;
+	color: #81c0e4;
+	padding-bottom:5px;
+}
+
+.content-params-submit button:hover{
+	color: #fff;
+}
+
+.tovar-ne-naiden{
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+	color: #000215;
+	text-align: center;
+	margin: 150px 0 75px 0;
+}
+/* C O N T E N T */

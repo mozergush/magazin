@@ -1,0 +1,154 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .content-allitems-tovari-tovar-cena{
+        width: 50%;
+        font-size: 19px;
+        padding-top: 7px;
+        padding-bottom:5px;
+    }
+
+    .auth{
+        display:none;
+    }
+    .menu{
+        margin-top:73px;
+        display:none;
+        width:100%;
+    }
+
+    .menu-item{
+        display: block;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .sort-params-fix{
+        padding-left: 0;
+    }
+
+    .content-categories-block{
+        display:none;
+    }
+
+    .content-slider-container{
+        margin:25px 15px 0 15px;
+    }
+
+    .content-categories-side{
+        display:none;
+        width:100%;
+        text-align: center;
+        margin: 0;
+        padding:0;
+        border: none;
+    }
+
+    .content-categories-side-items{
+        height: 50px;
+        padding: 5px 0 0 0;
+        margin:0;
+    }
+
+    .content-allitems-sort-params {
+        margin: 42px 0 10px;
+    }
+
+    .content-allitems-sort-block {
+        bottom: 159px;
+        top:auto;
+    }
+
+    .content-allitems{
+        margin-top:0;
+    }
+    .content-allitems-tovari-tovar{
+        text-align: center;
+    }
+
+    .content-allitems-tovari-tovar-cena{
+        font-size: 25px;
+        padding-top: 7px;
+        padding-bottom:5px;
+    }
+
+    .tovar-buy{
+        margin-top: 14px;
+    }
+
+    .content-allitems-tovari-tovar-opisaniye{
+        font-size: 20px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .find-form button{
+        width:25%;
+    }
+    .find-form input{
+        width:73%;
+    }
+
+    .content-allitems-tovari-tovar-opisaniye{
+        font-size: 17px;
+    }
+
+    .pagination-buttons{
+        padding: 0 15px 15px 15px;
+        margin:0;
+    }
+
+    .pagination-allform{
+        padding:0 15px 0 15px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+    .content-categories-side {
+        display:block !important;
+    }
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .menu {
+        display:block !important;
+    }
+}

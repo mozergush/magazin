@@ -1,0 +1,516 @@
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+
+}
+.buttons{
+	background: transparent;
+	border:none;
+}
+
+.border{
+	border: 3px solid;
+	border-color: #000215;
+}
+
+
+.header {
+	background-color: #000215;
+}
+
+.logo {
+	text-align:center;
+	margin: 15px 0  15px;
+	padding: 0;
+	color:#FFFFFF;
+	font-size:30px;
+	font-family: 'Asap', bold;
+}
+
+.logo-color {
+	color:#81c0e4;
+}
+
+.menu-item {
+	margin: 0;
+	padding: 15px 0  15px;
+	text-align:center;
+	color: #ffffff;
+	font-size:30px;
+	font-family: 'YanoneKaffeesatzRegular';
+	display:block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.menu-item:hover{
+	background-color: #01102d;
+}
+
+.menu-item.active{
+	background-color: #011d44;
+}
+
+
+.auth {
+	margin-right:15px;
+	float:right;
+	padding: 14px 0  16px;
+	color: #81c0e4;
+	font-size: 30px;
+	font-family: 'YanoneKaffeesatzRegular';
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.auth img{
+	margin-left: 5px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.auth:hover{
+	color: #fff;
+}
+
+.menu-button{
+	position: absolute;;
+	padding: 16px 20px  14px 0;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	z-index:10;
+}
+
+.footer{
+	margin-top:45px;
+	background-color: #000215;
+}
+
+.footer-line{
+	height:9px;
+	background-color: #81c0e4;
+}
+
+.footer-content{
+	font-size: 25px;
+	font-family: 'YanoneKaffeesatzRegular';
+	text-align:center;
+	color: #ffffff;
+	padding:22px;
+	line-height: 1.85;
+}
+
+.footer-social{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.soc-button{
+	margin-left: 7px;
+	margin-right: 7px;
+	display: inline-block;
+}
+
+/* C O N T E N T */
+
+.find-form{
+	margin:25px 0 0 0;
+	padding:0;
+	background-color: #000215;
+}
+
+.find-form input{
+	margin:0;
+	width: 80%;
+	padding:0 0 0 10px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	height: 40px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+	text-align: left;
+	font-size:25px;
+	color: #000215;
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+.find-form button{
+	width:19%;
+	margin:0;
+	padding:0;
+	border:none;
+	background-color: transparent;
+	text-align: center;
+	font-size:25px;
+	color: #81c0e4;
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+.find-form button:hover{
+	color:#fff;
+}
+
+.content-slider-container{
+	position: relative;
+	margin:96px 15px 0 15px;
+}
+
+
+.next_button, .prev_button {
+	color: #fff;
+	font-size: 46px;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	background-color: rgba(173, 216, 230, .5);
+	height: 100%;
+	width: 10%;
+	text-align: center;
+	vertical-align: center;
+}
+
+.next_button:hover, .prev_button:hover {
+	background-color: rgba(173, 216, 230, .7);
+}
+
+.next_button img, .prev_button img{
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+}
+
+.next_button {
+	right:0;
+}
+
+.prev_button{
+	left: 0;
+}
+
+.categories-hidden{
+	padding-left: 10px;
+	color: #81c0e4;
+	background-color: #011d44;
+	text-align: left;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+	padding-bottom: 7px;
+}
+
+.categories-button{
+	padding:0 10px 0 10px;
+	float: right;
+}
+
+.content-categories{
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 25px;
+}
+
+.content-categories-block{
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+
+	width: 65%;
+	height: 39px;
+	color: #FFFFFF;
+	background-color: #000215;
+	text-align: center;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+
+}
+
+.content-categories-side{
+
+	text-align: center;
+	margin: 18px 0 10px;
+	padding-top: 18px;
+}
+
+.content-categories-side-items{
+	height: 39px;
+	margin:10px;
+	color: #81c0e4;
+	background-color: #011d44;
+	text-align: center;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+}
+
+.content-categories-side-items:hover{
+	background-color: #01102d;
+}
+
+.content-categories-side-items.active{
+	background-color:#000215;
+}
+
+
+/* F I X E D */
+
+.content-allitems{
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 25px;
+}
+
+.content-allitems-sort-block{
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+
+	width: 35%;
+	height: 39px;
+	color: #FFFFFF;
+	background-color: #000215;
+	text-align: center;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+
+}
+
+.content-allitems-sort-params{
+	margin: 18px 0 10px;
+	padding-top: 18px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.content-allitems-sort-params-items{
+	margin: 10px 5px 5px;
+	height: 39px;
+	color: #81c0e4;
+	background-color: #011d44;
+	text-align: center;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+}
+
+.content-allitems-sort-params-items:hover{
+	background-color: #01102d;
+}
+
+.content-allitems-sort-params-items.active{
+	background-color:#000215;
+}
+
+.content-allitems-sort-params-fixed{
+	padding:0;
+}
+
+.tovar-firstitem-fix{
+	padding-left: 5px;
+}
+
+.content-allitems-tovari{
+}
+
+.content-allitems-tovari-tovar-parent{
+	padding: 0;
+}
+
+.content-allitems-tovari-tovar{
+	margin: 20px 0 0 10px;
+	padding: 0;
+}
+
+.content-allitems-tovari-tovar-image{
+	max-width:100%;
+	height: auto;
+}
+
+.content-allitems-tovari-tovar-side{
+	background-color: #000215;
+}
+
+.content-allitems-tovari-tovar-opisaniye, .content-allitems-tovari-tovar-opisaniye a{
+	font-family: 'YanoneKaffeesatzRegular';
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align:center;
+}
+
+.content-allitems-tovari-tovar-opisaniye a:hover{
+	text-decoration: underline;
+}
+
+.content-allitems-tovari-tovar-cena{
+	font-family: 'YanoneKaffeesatzBold';
+	color: #FFFFFF;
+	font-size: 23px;
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	padding: 4px 0 2px 0;
+}
+
+.tovar-buy a{
+	color: #011d44;
+}
+
+.tovar-buy{
+	margin-top: 6px;
+	width: 50%;
+	float:right;
+	display: inline-block;
+	font-family: 'YanoneKaffeesatzBold';
+	font-size: 23px;
+	text-align: center;
+	color: #011d44;
+	background-color: #81c0e4;
+	border: none;
+}
+
+.tovar-buy:hover{
+	background-color: #81e3d9;
+}
+
+.content-pagination{
+	margin: 30px 0 45px;
+	font-family: 'YanoneKaffeesatzRegular';
+}
+
+.pagination-buttons-elem{
+	padding: 0;
+	text-align: center;
+	height: 40px;
+	background-color: #000215;
+}
+
+.pagination-buttons-elem-fix{
+	text-align: center;
+	font-size:25px;
+	background-color: #fff;
+	color: #000215;
+}
+
+.pagination-buttons{
+	padding: 0 25px 0 15px;
+	margin:0;
+}
+
+.pagination-fix{
+	padding: 0 15px;
+}
+
+.pagination-fix2{
+	padding: 0;
+}
+
+.pagination-allform{
+	padding:0 15px 0 10px;
+}
+
+.pagination-form{
+	margin:0;
+	padding:0;
+	background-color: #000215;
+}
+
+.pagination-form input{
+	margin:0;
+	width: 80%;
+	padding:0 0 0 10px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	height: 40px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+	text-align: left;
+	font-size:25px;
+	color: #000215;
+}
+
+.pagination-form button{
+	text-align: center;
+	width:19%;
+	margin:0;
+	padding:0;
+	border:none;
+	background-color: transparent;
+}
+
+.tovarov-ne-naideno{
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+}
+
+.sort-params-fix{
+	padding-left: 5px;
+}
+
+.content-razdelitel{
+	margin:25px 0 3px 0;
+	text-align: center;
+}
+
+.content-razdelitel hr{
+	border: none;
+	background-color: #000215;
+	height: 3px;
+	margin: 18px 0 0 0;
+}
+
+.content-razdelitel-block{
+	top:0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+
+	width: 30%;
+	height: 39px;
+	color: #FFFFFF;
+	background-color: #000215;
+	text-align: center;
+	font-family: 'YanoneKaffeesatzRegular';
+	font-size: 25px;
+}
+
+.vmestopoiska{
+	margin-bottom:40px;
+}
+/* C O N T E N T */

@@ -1,0 +1,243 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .content-slider-container{
+        padding: 0 88px 0;
+    }
+
+    .content-allitems-tovari-tovar-cena{
+        font-size: 20px;
+        padding: 6px 0 4px 0;
+    }
+
+
+    .menu{
+        margin-top:73px;
+        display:none;
+        width:100%;
+    }
+
+    .menu-item{
+        display: block;
+    }
+
+    .auth{
+        display:none;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .content-slider-container{
+        margin:89px 15px 0 15px;
+        padding: 0 82px 0;
+    }
+
+    .content-news-item-side-picture{
+        border-right:none;
+        border-bottom: 3px solid #000215;
+    }
+    .content-allitems-tovari-tovar-cena{
+        font-size: 23px;
+        padding: 4px 0 2px 0;
+    }
+
+    .content-zakazi-item-image{
+        border-bottom: 3px solid #000215;
+    }
+
+    .content-zakazi-item-title{
+        padding: 5px 0 5px 0;
+    }
+
+    .content-zakazi-item-amount{
+        padding: 5px 0 5px 0;
+        border: 3px solid #000215;
+        border-right:none;
+    }
+
+    .content-zakazi-item-amount-plus, .content-zakazi-item-amount-minus{
+        padding-top:2px;
+        position: absolute;
+    }
+
+    .content-zakazi-item-price{
+        padding: 5px 0 5px 0;
+    }
+
+    .content-zakazi-item-cancel{
+        border-top: 3px solid #000215;
+        padding: 3px 0 3px 0;
+    }
+
+    .border-left{
+        border-left: none;
+    }
+
+    .content-razdelitel{
+
+        margin-bottom:18px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .find-form button{
+        width:25%;
+    }
+
+    .find-form input{
+        width:73%;
+    }
+
+    .content-razdelitel-block{
+        width:55%;
+    }
+
+    .content-news-item-block{
+        font-size: 20px;
+        width: 25%;
+        padding-top: 4px;
+    }
+
+    .content-news-item-side-text-nazv{
+        font-size: 23px;
+    }
+
+    .content-slider-container{
+        padding: 0 72px 0;
+    }
+
+    .content-label, .content-label-left, .checkbox-fix{
+        text-align: center;
+    }
+
+    .content-input input{
+        width: 100%;
+        text-align: left;
+    }
+
+    .content-button, .content-button-a a {
+        width:100%;
+    }
+
+    .content-button-xs-fix{
+        margin-top: 25px;
+    }
+
+    .content-button-all-anal{
+        margin: 25px 0 0 0;
+    }
+
+    .content-button-a-fix{
+        padding:15px;
+        margin-top:10px;
+    }
+
+    .content-input-first-fix{
+        margin-top:50px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .content-slider-container{
+        padding: 0 44px 0;
+    }
+
+    .content-label, .content-label-left{
+        text-align: center;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .content-zakazi-item-image, .content-zakazi-item-title, .content-zakazi-item-amount, .content-zakazi-item-price, .content-zakazi-item-cancel {
+        height: 107px;
+    }
+
+    .content-zakazi-item-title{
+        padding-top:15px;
+    }
+
+    .content-zakazi-item-amount{
+        padding-top:33px;
+    }
+
+    .content-zakazi-item-amount-minus{
+        padding-top:30px;
+    }
+
+    .content-zakazi-item-amount-plus{
+        padding-top:30px;
+    }
+
+    .content-zakazi-item-price{
+        padding-top:33px;
+    }
+
+    .content-zakazi-item-cancel{
+        padding-top:30px;
+    }
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .menu {
+        display:block !important;
+    }
+    .content-zakazi-item-image, .content-zakazi-item-title, .content-zakazi-item-amount, .content-zakazi-item-price, .content-zakazi-item-cancel {
+        height: 130px;
+    }
+
+    .content-zakazi-item-title{
+        padding-top:27px;
+    }
+
+    .content-zakazi-item-amount{
+        padding-top:43px;
+    }
+
+    .content-zakazi-item-amount-plus{
+        padding-top:40px;
+    }
+
+    .content-zakazi-item-amount-minus{
+        padding-top:40px;
+    }
+
+    .content-zakazi-item-price{
+        padding-top:43px;
+    }
+
+    .content-zakazi-item-cancel{
+        padding-top:40px;
+    }
+
+}
